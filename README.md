@@ -1,14 +1,15 @@
-# Welcome to your Lovable project
+# NOIRÉ — The Art of Dining
 
-This project was built with [Lovable](https://lovable.dev).
+A modern luxury dining experience where culinary craft, atmosphere, and unforgettable moments come together.
 
-## Build with Lovable
+## About NOIRÉ
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+NOIRÉ is a contemporary restaurant website showcasing an elegant dining experience with:
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Immersive Experience**: Beautiful visual storytelling with 3D elements
+- **Interactive Menu**: Browse our carefully curated seasonal menu
+- **Easy Reservations**: Book your table with a seamless reservation system
+- **Gallery & Reviews**: View our ambiance and guest experiences
 
 ## Development
 
