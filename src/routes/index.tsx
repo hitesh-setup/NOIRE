@@ -9,15 +9,19 @@ import { Reservation } from '@/components/noire/Reservation';
 import { Concierge } from '@/components/noire/Concierge';
 import { useExperience } from '@/hooks/use-experience';
 
-const description = 'NOIRÉ is a modern luxury dining experience where culinary craft, atmosphere and unforgettable moments come together.';
+const description = 'NOIRÉ — an immersive fine-dining experience where culinary craft becomes an unforgettable experience.';
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
    { title: 'NOIRÉ — The Art of Dining' },
    { name: 'description', content: description },
    { property: 'og:title', content: 'NOIRÉ — The Art of Dining' },
-   { property: 'og:description', content: description },
+   { property: 'og:description', content: 'An experience beyond the plate.' },
+   { property: 'og:image', content: '/og-image.jpg' },
    { property: 'og:type', content: 'website' },
    { name: 'twitter:card', content: 'summary_large_image' },
+   { name: 'twitter:title', content: 'NOIRÉ — The Art of Dining' },
+   { name: 'twitter:description', content: 'An experience beyond the plate.' },
+   { name: 'twitter:image', content: '/og-image.jpg' },
   ] }),
   component: Index,
 });
